@@ -48,6 +48,7 @@ class HomeViewState extends State<HomeView> {
         centerTitle:true,
         automaticallyImplyLeading:false,
         elevation:0,
+        backgroundColor: Color(0xff7C98FC),
       ),
       body: pages[_currentIndex],
       bottomNavigationBar: BottomNavBar(

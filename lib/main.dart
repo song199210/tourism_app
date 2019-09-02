@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:tourism_app/views/HomeView.dart';
 import 'package:tourism_app/views/LoginView.dart';
-import 'package:tourism_app/widgets/BottomNavBar.dart';
+import 'package:tourism_app/views/RegisterView.dart';
 
 void main() => runApp(MyApp());
 
@@ -24,6 +24,8 @@ class MyAppState extends State<MyApp>{
       initialRoute: "/",
       routes: <String,WidgetBuilder>{
         "/": (context)=>LoginView(),
+        "/login": (context)=>LoginView(),
+        "/register": (context)=>RegisterView(),
         "/home": (context)=>HomeView()
       }
     );

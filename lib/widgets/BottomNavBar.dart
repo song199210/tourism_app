@@ -47,6 +47,7 @@ class BottomNavBarState extends State<BottomNavBar> {
             unselectedItemColor: Colors.black26,
             unselectedFontSize:10.0,
             selectedFontSize: 10.0,
+            selectedItemColor: Color(0xff7C98FC),
             elevation: 0,
             onTap: (int index){
               widget.onTap(index);
