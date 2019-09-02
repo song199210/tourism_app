@@ -24,7 +24,7 @@ class MyAppState extends State<MyApp>{
       initialRoute: "/",
       routes: <String,WidgetBuilder>{
         "/": (context)=>LoginView(),
-        "/login": (context)=>LoginView(),
+        "/login1": (context)=>LoginView(),
         "/register": (context)=>RegisterView(),
         "/home": (context)=>HomeView()
       }
