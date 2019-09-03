@@ -83,7 +83,6 @@ class RegisterView extends StatelessWidget {
                                   Expanded(
                                     flex: 2,
                                     child: Container(
-                                      margin: EdgeInsets.only(right: 10),
                                       decoration: BoxDecoration(
                                           border: Border(bottom: BorderSide(
                                               color: Color(0xff7C98FC)
